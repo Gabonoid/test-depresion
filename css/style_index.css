@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: transparent url("../img/Wave\ Line.svg") no-repeat fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.titulo{
+	font-size: 3.2rem;
+	color: #b1a228;
+	text-align: center;
+}
+
+header img {
+    margin: auto;
+	width:100%;
+	height: 10vh;
+	min-height: 100px;
+	max-height: 200px;
+}
+
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 24px;
+}
+
+.logo_uaem {
+    margin-top: 30px;
+	width: 560px;
+	max-width: 600px;
+    margin-bottom: 50px;
+}
+
+.contenido_principal {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.tarjeta {
+	margin: auto;
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.tarjeta_card {
+	width: 220px;
+	height: 220px;
+	padding: 6px;
+	background: rgba(197, 199, 198, 0.25);
+	margin: 8px;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.25);
+}
+
+.tarjeta_card p {
+	color: rgb(50, 50, 50);
+	text-align: center;
+	font-size: 16px;
+}
+
+.tarjeta_card img {
+	width: 90px;
+}
+
+.button-68 {
+	appearance: none;
+	backface-visibility: hidden;
+	background-color: #254d2f;
+	border-radius: 8px;
+	border-style: none;
+	box-shadow: rgba(39, 174, 96, 0.15) 0 4px 9px;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+		sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: normal;
+	line-height: 1.5;
+	outline: none;
+	overflow: hidden;
+	padding: 13px 20px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transform: translate3d(0, 0, 0);
+	transition: all 0.3s;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: top;
+	white-space: nowrap;
+	margin-top: 40px;
+	margin-bottom: 26px;
+}
+
+.button-68:hover {
+	background-color: #1e8449;
+	opacity: 1;
+	transform: translateY(0);
+	transition-duration: 0.35s;
+}
+
+.button-68:active {
+	transform: translateY(2px);
+	transition-duration: 0.35s;
+}
+
+.button-68:hover {
+	box-shadow: rgba(39, 174, 96, 0.2) 0 6px 12px;
+}

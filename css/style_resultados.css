@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: transparent url("../img/Wave\ Line.svg") no-repeat fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+header img {
+	margin: auto;
+	width: 100%;
+	height: 10vh;
+	min-height: 100px;
+	max-height: 200px;
+}
+
+.titulo {
+	font-size: 3rem;
+	color: #b1a228;
+	text-align: center;
+    padding: 15px 0;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo_uaem {
+	width: 80%;
+	max-width: 600px;
+}
+
+.principal {
+    margin: auto;
+	width: 90%;
+	max-width: 1200px;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content {
+	margin: auto;
+	width: 40%;
+	margin-bottom: 50px;
+}
+
+.info_materia{
+    width: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #edededc0;
+    padding: 16px 12px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 42px -17px rgba(0,0,0,0.75);
+    margin-bottom: 50px;
+}
+
+.porcentaje_card{
+    width: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #edededc0;
+    padding: 16px 12px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 42px -17px rgba(0,0,0,0.75);
+    margin-bottom: 50px;
+}
+
+.porcentaje_img {
+    width: 30%;
+    margin: 10px;
+}
+
+.porcentaje_card b{
+    color: #0f7d03;
+}
+
+
+a{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background-color: #295d36;
+    padding: 14px 40px;
+    margin-top: 100px;
+    border-radius: 15px;
+}
