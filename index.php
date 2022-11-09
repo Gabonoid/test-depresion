@@ -23,7 +23,7 @@ if (!empty($_POST)) {
     <link rel="stylesheet" href="css/style_index.css">
     <link rel="icon" href="img/logo_uaem.png">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <title>Orientacion Vocacional | Home</title>
+    <title>Test | Home</title>
 </head>
 
 
@@ -38,7 +38,7 @@ if (!empty($_POST)) {
             <img class="logo_uaem" src="img/logo_escuela.png" alt="logo_uaem">
         </div>
 
-        <h1 class="titulo">"Orientación Vocacional ISI"</h1>
+        <h1 class="titulo">"Test Depresión, Ansiedad y Estres"</h1>
         <br>
 
         <div class="tarjeta">
